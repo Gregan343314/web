@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(146, 233, 220);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.title,
+.desc {
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+    font-family: 'Pacifico', cursive;
+}
+
+.title {
+    color: blueviolet;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+p {
+    color: green;
+}
+
+#unic {
+    color: black;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.nav {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-linc {
+    text-decoration: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: rgb(250, 249, 249);
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+
+.nav-linc:hover {
+    background-color: aliceblue;
+    color: rgb(140, 10, 195);
+    border: 1px solid darkgreen;
+}
+
+.item {
+    width: 260px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.item-pic {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item-link {
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.item-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+}
+
+.box {
+    width: 700;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.descrip {
+    text-align: left;
+    margin-top: 50px;
+    color: rgb(7, 7, 7);
+    font-family: 'Pacifico', cursive;
+}
